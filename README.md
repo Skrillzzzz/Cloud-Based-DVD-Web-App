@@ -56,6 +56,7 @@ The Serverless Password Strength Validator is a lightweight function running on 
 - Set the runtime to Python 3.x and assign a basic execution role.
 - (Optional) Set up an API Gateway trigger if you want to expose the Lambda function as a web endpoint.
 
+---
 ## 🔑 Requirements
 
 ### For the DVD Web App:
@@ -68,8 +69,10 @@ The Serverless Password Strength Validator is a lightweight function running on 
 - AWS CLI configured with your credentials
 - (Optional) `boto3` or other libraries if your function interacts with other AWS services
 
+---
 ## 📂 Project Structure
 
+```text
 Cloud-Based-DVD-Web-App/
 ├── DVDapp/
 │   ├── Melving_Andrew_21441545_CloudComputing.docx
@@ -79,9 +82,10 @@ Cloud-Based-DVD-Web-App/
 │   └── lambda_function.py
 ├── README.md
 └── .gitignore
-
+```
+---
 ## 🧠 Future Improvements
 
-Add a front-end interface for the password validator.
-Expand password checks (e.g., entropy calculation, breached password API).
-Dockerize the web app for simplified deployment.
+Add a front-end interface for the password validator.  
+Expand password checks (e.g., entropy calculation, breached password API).  
+Dockerize the web app for simplified deployment.  
