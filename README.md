@@ -86,6 +86,6 @@ Cloud-Based-DVD-Web-App/
 ---
 ## 🧠 Future Improvements
 
-Add a front-end interface for the password validator.  
-Expand password checks (e.g., entropy calculation, breached password API).  
-Dockerize the web app for simplified deployment.  
+- Add a front-end interface for the password validator.  
+- Expand password checks (e.g., entropy calculation, breached password API).  
+- Dockerize the web app for simplified deployment.  
